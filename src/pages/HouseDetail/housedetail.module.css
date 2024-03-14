@@ -1,0 +1,188 @@
+.root{
+    position: relative;
+    padding-bottom: 70px;
+    background-color: #f6f5f6;
+}
+.root :global(.am-navbar-title){
+    color: #ffffff;
+    font-size: 16px;
+}
+.slides{
+    height: 252px;
+}
+.slides :global(a){
+    display: inline-block;
+    width: 100%;
+    height: 252px;
+}
+.slides :global(img){
+    width: 100%;
+    height: 252px;
+    vertical-align: top;
+}
+
+.navHeader{
+    position: absolute;
+    color: #ffffff;
+    text-shadow:1px 1px 0 #000, -1px -1px 0 #000;
+    background-color: transparent;
+}
+/*房屋基础信息*/
+.info{
+    padding: 15px;
+    background: white;
+}
+.infoTitle{
+    font-weight: normal;
+    font-size: 20px;
+    color: #333333;
+    margin: 6px 0 10px 0;
+}
+
+.tags{
+    position: relative;
+    margin: 10px 0;
+    display: flex;
+}
+.tag{
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 4px 5px;
+    margin-right: 5px;
+    line-height: 12px;
+}
+.tag1{
+    color: #39becd;
+    background: #e1f5f8;
+}
+.tag2{
+    color: #3fc28c;
+    background: #e1f5ed;
+}
+.tag3{
+    color: #5aabfd;
+    background: #e6f2ff;
+}
+
+.infoPrice{
+    border-top: solid 1px #cecece;
+    border-bottom: solid 1px #cecece;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+}
+.infoPriceItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+.infoPriceItem :global(div){
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+.infoPriceItem :global(div:first-child){
+    color: #fa5741;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.month{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.infoBasic{
+    display: flex;
+    height: 70px;
+    font-size: 14px;
+}
+.infoBasicItem{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.title{
+    color: #666666;
+}
+.about{
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background-color: white;
+}
+.houseTitle{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0 12px 8px;
+    border-bottom: rgba(75, 77, 77, 60%) 1px solid;
+}
+.mapTitle{
+    line-height: 40px;
+    background-color: white;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.mapContainer{
+    width: 100%;
+    height: 230px;
+}
+.mapArrow{
+
+}
+.set{
+    margin: 10px 0px;
+    padding: 0 10px;
+    line-height: 150%;
+    background-color: white;
+}
+.contact{
+    position: relative;
+}
+.user{
+    margin-bottom: 10px;
+    display: flex;
+}
+.user :global(img){
+    width: 52px;
+    height: 52px;
+    margin: 10px 10px 0 0;
+}
+.useInfo{
+    padding: 15px 0 0 5px;
+}
+
+.fixedBottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+}
+.bottomButton{
+    flex-grow: 1;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+}
+.favorite{
+    margin-left: 6px;
+}
+.favoriteImg{
+    width: 16px;
+}
+
+.telephone{
+    color: white;
+}
+#teleButton{
+    height: 100%;
+    background-color: #3fc28c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

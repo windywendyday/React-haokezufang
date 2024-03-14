@@ -1,0 +1,23 @@
+.root{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #b6b8b8;
+}
+.item{
+    font-size: 17px;
+    vertical-align: 0;
+}
+.dropdown :global(.antd-mobile-icon){
+    vertical-align: 0 !important;
+}
+.downIcon{
+    margin-left: 5px;
+    font-size: 11px;
+}
+.dropdown{
+
+}
+.selected{
+    color: #21b97a;
+}

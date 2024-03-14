@@ -1,0 +1,42 @@
+.root{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background: white;
+    height: 200px;
+}
+.root ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-inline-start: 0px !important;
+    padding-bottom: 20px;
+    /*justify-content: space-evenly;*/
+}
+.item{
+    margin: 20px 15px 10px 15px;
+    width: 50px;
+    /*line-height: 23px;*/
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.active{
+    color: #21b97a;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+}
+.icon img{
+    width: 35px;
+    height: 35px;
+}
+.itemName{
+    font-size: 14px;
+    margin-top: 8px;
+}

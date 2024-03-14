@@ -1,0 +1,34 @@
+.findHouse{
+    /*height: calc(100vh - 45px);*/
+    /*padding-bottom: 50px;*/
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #f6f5f6;
+    height: 50px;
+    justify-content: flex-start;
+}
+.leftIcon{
+    margin-left: 15px;
+}
+.searchHeader{
+    position: relative;
+    justify-content: space-evenly;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-grow: 1;
+}
+.houseItems{
+    padding:0 15px;
+}
+.loading{
+    line-height: 120px;
+    text-align: center;
+    height: 110px;
+    background-color: #f6f5f6;
+}
+.ReactVirtualized__List{
+    padding-bottom: 50px;
+}

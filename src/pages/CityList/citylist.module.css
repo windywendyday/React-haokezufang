@@ -1,0 +1,9 @@
+.citylist{
+    height: 100%;
+    padding-top: 45px;
+}
+
+.citylist :global(.adm-nav-bar){
+    background-color: #f4f6f4;
+    margin-top: -45px;
+}

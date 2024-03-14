@@ -1,0 +1,81 @@
+.root{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    min-height: 300px;
+    position: relative;
+}
+.bg{
+    width: 100%;
+}
+.info{
+    position: absolute;
+    background-color: white;
+    width: 85%;
+    height: 55%;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    box-shadow: 0 0 10px 3px #ddd;
+    margin: 50px auto 0;
+    padding: 0 20px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 13px;
+}
+.auth{
+    margin-bottom: 30px;
+}
+.user{
+    padding-top: 15px;
+}
+.myIcon{
+    position: relative;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: solid 5px #f5f5f5;
+    display: inline-block;
+    box-shadow: 0 2px 2px #bdbdbd;
+}
+.avatar{
+    width: 100%;
+    border-radius: 50%;
+}
+.name{
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+.auth :global(span){
+    border-radius: 30px;
+}
+
+.grid{
+    width: 100%;
+    align-content: space-around;
+}
+.gridItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 18px 10px 18px;
+}
+.gridItem img{
+    width: 40px;
+    height: 40px;
+    margin: 30px 30px 16px 30px;
+}
+.gridItem span{
+    font-size: 16px;
+}
+
+.ad img{
+    width: 100%;
+}
+.error{
+    font-size: 14px;
+    color: #fa5741;
+}

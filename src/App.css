@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+input{
+    border-style: none;
+    outline: none;
+}
+h3,h4{
+    /*height: 20px;*/
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.App{
+    height: 100%;
+}
+
+.route-loading{
+    padding-top: 100px;
+    text-align: center;
+}

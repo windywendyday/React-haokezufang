@@ -1,0 +1,133 @@
+.index{
+    padding-bottom: 50px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.swipers{
+    position: relative;
+}
+/*搜索框*/
+
+.content {
+    height: 220px;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    user-select: none;
+}
+
+.navBarItems img{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    margin-bottom:5px;
+}
+
+.navBarItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 14px 20px 14px;
+    flex-grow: 1;
+}
+
+.NavBar{
+    width: 100%;
+    height: 90px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 10px 0;
+}
+
+/*小组板块*/
+
+.rentGroupTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    margin: 20px 0 10px 0;
+}
+
+.rentGroupTitle div{
+    position: absolute;
+    right: 10px;
+}
+
+.groupName{
+    height: 200px;
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.groupItem{
+    /*width: 180px;*/
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin: 4px 6px 0 6px;
+    background-color: antiquewhite;
+    flex-grow: 1;
+}
+
+.groupItem div{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.groupItem img{
+    width: 80px;
+    height: 70px;
+}
+.groupItem h4{
+    margin: 10px 0 4px 10px;
+}
+.groupItem p{
+    margin: 10px 0 4px 10px;
+}
+
+/*资讯列表*/
+.newsListTitle h3{
+    margin-left: 8px;
+}
+.newsListContent{
+    display: flex;
+    flex-direction: column;
+}
+.news{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 0 0 10px 0;
+    border-bottom: #f4f6f4 1px solid;
+}
+.news img{
+    width: 150px;
+    height: 100px;
+}
+.newsText{
+    width: 220px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.newsTitle{
+    font-weight: bold;
+    font-size: medium;
+}
+.newsState{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 4px;
+    color: #b6b8b8;
+}

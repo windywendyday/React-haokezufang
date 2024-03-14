@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  font-family: "Microsoft Sans Serif";
+  color: #333;
+  background-color: #fff;
+}
+#root{
+  height: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.adm-tab-bar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+ul{
+  margin: 0;
+  list-style: none;
+}
+
+h1, dd{
+  margin: 0;
+}
+
+.body-fixed{
+  overflow: hidden;
+}
+iframe{
+  z-index: 0;
+}
